@@ -7,5 +7,4 @@
 2、执行salt命令，批量安装zabbix-agent
 
 	salt 'rhel6-minion*' state.sls install_zabbix-agent-rhel6
-	
 	salt 'rhel7-minion*' state.sls install_zabbix-agent-rhel7
