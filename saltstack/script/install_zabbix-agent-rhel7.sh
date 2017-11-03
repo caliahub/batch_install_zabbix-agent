@@ -16,5 +16,5 @@ sed -i "s/ServerActive=127.0.0.1/#ServerActive=127.0.0.1\nServerActive=192.168.3
 sed -i "s/Hostname=Zabbix server/#Hostname=Zabbix server\nHostname=$HOSTNAME/g" /etc/zabbix/zabbix_agentd.conf
 
 #启动并设置开机启动
-systemctl enable zabbix-agent.service 
+systemctl enable zabbix-agent.service
 systemctl start zabbix-agent.service
