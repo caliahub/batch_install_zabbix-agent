@@ -13,4 +13,3 @@ zabbix-agent:
     - makedirs: true
     - user: root
     - group: root
- 
